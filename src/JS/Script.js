@@ -2,7 +2,7 @@
     const infoBox = document.getElementById("nathanRicknerInfo");
     infoBox.innerHTML = `
       <h3>About Nathan Rickner</h3>
-      <p>Hey there,
+      <p>\tHey there,\n
 Thanks so much for visiting our church’s website! I’d love to personally invite you to come and
 be part of one of our services. But before you do, let me take a moment to introduce myself.
 I had the great privilege of growing up in a Christian home. My family was deeply involved in
