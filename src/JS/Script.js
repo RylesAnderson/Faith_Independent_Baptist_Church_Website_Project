@@ -1,4 +1,13 @@
-  function showMoreInfo() {
+import { createRoot } from 'react-dom/client';
+
+// Clear the existing HTML content
+document.body.innerHTML = '<div id="app"></div>';
+
+// Render your React component instead
+const root = createRoot(document.getElementById('app'));
+root.render(<h1>Hello, world</h1>);
+
+function showMoreInfo() {
     const infoBox = document.getElementById("nathanRicknerInfo");
     infoBox.innerHTML = `
       <h3>About Nathan Rickner</h3>
@@ -25,4 +34,4 @@ beautiful daughter Adalynn, who brings so much joy to our lives.
 Thanks again for stopping by. I truly hope to meet you soon, hear your story, and get to know
 you personally. Until then, may God bless you and guide your steps.</p>`;
     infoBox.style.display = "block";
-  }
+}
